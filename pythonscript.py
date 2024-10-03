@@ -26,7 +26,7 @@ for row in data:
         count += 1
 
 
-output_file = 'taxi_zone_output.txt'
+output_file = '/root/taxi_zone_output.txt'
 with open(output_file, 'w') as f:
     f.write(f"Total Records: {total_records}\n")
     f.write(f"Unique Boroughs: {uniqueborough}\n")
